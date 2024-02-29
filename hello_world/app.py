@@ -10,7 +10,7 @@ from botocore.exceptions import ClientError
 app = FlaskLambda(__name__)
 
 ddb = boto3.resource('dynamodb')
-table = ddb.Table('student-new')
+table = ddb.Table('student-new-git')
 
 # def lambda_handler(event, context):
 #     students_data = table.scan()['Items']
